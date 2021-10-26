@@ -3,90 +3,84 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - ආයුබෝවන්
+    - හායි
+    - හෙලෝ
+    - සුභ උදෑසනක්
+    - සුභ සන්ද්යාවක්
+    - සුබ දහවල්ක්
 
 - intent: goodbye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - සුබ දහවල්ක්
+    - සමුගන්නවා
+    - බායි
+    - සුභ රාත්රියක්
+    - නැවත හමුවෙන්නම්
+    - පසුව හමුවෙමු
+    - නැවත හමුවෙමු
+    - පසුව කතා කරන්නන්
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - ඔව්
+    - හා
+    - පුළුවන්
+    - අනිවාර්යයෙන්
+    - හොදයි වගේ
+    - හොඳයි
+    - නිවැරදි
+    - හරි
+    - හරි හරී
+    - තහවුරුයි
+    - ඒක හොඳයි
+    - ගොඩක් හොඳයි
 
 - intent: deny
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - නැත
+    - නැ
+    - නැහැ
+    - මම එහෙම හිතන්නේ නැහැ
+    - මම හිතන්නේ නැහැ
+    - මම එහෙම කැමති නෑ
+    - කැමති නෑ
+    - ඇත්තෙන්ම නැහැ
+    - ඇත්තටම නැහැ
+    - හොඳ නැහැ
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - නියමයි
+    - විශිෂ්ටයි
+    - අපූරුයි
+    - වාසනාවන්තයි
+    - උද්යෝගිමත්
+    - ගොඩක් හොඳයි
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - අපරාදේ
+    - දුකයි
+    - හරිම දුකයි
+    - ගොඩාක් දුකයි
+    - අවුල්
+    - කලකිරීමෙන්
+    - කලකිරෙනවා
+    - ගොඩක් කලකිරීමෙන්
+    - අසතුටින්
+    - හොඳ නැහැ
+    - ඉතා හොඳ නැත
+    - කණගාටුදායකයි
+    - අතිශයින්ම කණගාටුදායකයි
+    - ගොඩාක් කණගාටුදායකයි
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - ඔබ බොට් කෙනෙක්ද?
+    - බොට් කෙනෙක්ද?
+    - බොට්?
+    - ඔබ මනුෂ්‍යයෙක්ද?
+    - ඔබ මිනිසෙක් ද?
+    - මිනිසෙක් ද?
+    - මම කතා කරන්නේ මනුස්සයෙක්ටද?
