@@ -11,23 +11,23 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "ආයුබෝවන්, ඔබට සහය වන්නේ කෙසේද?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  - text: "මෙන්න ඔබව සතුටු කිරීමට දෙයක්:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "එය ඔබට උදව් කළාද?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "නියමයි, වෙනත් යමක් අවශ්‍යද?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "සමුගන්නවා, සුබ දවසක්"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "ඔව් මම බොට් කෙනෙක්"
 
 session_config:
   session_expiration_time: 60
