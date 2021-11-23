@@ -35,6 +35,9 @@ responses:
   utter_delivery_info:
   - text: "අපි කොළඹ,කළුතර,ගම්පහ ප්‍රදේශවලට බෙදා හැරීම සිදු කරන්නෙමු, කාඩ්පත් ගෙවීම පිළිගනු ලැබේ. මුදල් මගින්ද ගෙවිය හැක."
 
+  utter_product_list:
+  - text: "ඔබට පහත නිෂ්පාදන මිලදී ගත හැකිය"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
