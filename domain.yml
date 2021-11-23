@@ -12,6 +12,14 @@ intents:
   - ask_for_brand
   - ask_about_delivery
 
+entities:
+  - product_name
+  - product_category
+  - brand
+  - size
+  - colour
+  - material
+
 responses:
   utter_greet:
   - text: "ආයුබෝවන්, ඔබට සහය වන්නේ කෙසේද?"
