@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: delivery info
+  steps:
+  - intent: ask_about_delivery
+  - action: utter_delivery_info

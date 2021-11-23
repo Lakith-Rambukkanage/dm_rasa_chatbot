@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_for_product
+  - ask_for_brand
+  - ask_about_delivery
 
 responses:
   utter_greet:
@@ -28,6 +31,9 @@ responses:
 
   utter_iamabot:
   - text: "ඔව් මම බොට් කෙනෙක්"
+
+  utter_delivery_info:
+  - text: "අපි කොළඹ,කළුතර,ගම්පහ ප්‍රදේශවලට බෙදා හැරීම සිදු කරන්නෙමු, කාඩ්පත් ගෙවීම පිළිගනු ලැබේ. මුදල් මගින්ද ගෙවිය හැක."
 
 session_config:
   session_expiration_time: 60

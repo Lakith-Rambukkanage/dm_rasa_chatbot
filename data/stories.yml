@@ -28,3 +28,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: show product list
+  steps:
+  - intent: ask_for_product
+  - action: utter_product_list
