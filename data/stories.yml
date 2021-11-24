@@ -32,4 +32,4 @@ stories:
 - story: show product list
   steps:
   - intent: ask_for_product
-  - action: utter_product_list
+  - action: action_get_product_list

@@ -13,6 +13,9 @@ intents:
   - ask_about_delivery
   - ask_about_payment
 
+actions:
+  - action_get_product_list
+
 entities:
   - product_name
   - product_category
