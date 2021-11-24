@@ -126,20 +126,48 @@ nlu:
     - කාඩ්පත්
     - ගෙවන්න ඔනෙ කොයි වෙලාවේද
 
-- intent: ask_for_product
+- intent: inform_product_pref
   examples: |
-    - නිෂ්පාදන මොනවාද
-    - කුමන නිෂ්පාදන විකිණීමට තිබේද 
-    - අපට මිලදී ගත හැක්කේ කුමක්ද?
-    - කුමන බඩු මිලදී ගත හැකිද
-    - නිෂ්පාදන ලැයිස්තුව
-    - බඩු ලැයිස්තුව
-    - දේවල් ලැයිස්තුව
-    - අයිතම ලැයිස්තුව
-    - නිෂ්පාදන ලබා ගත හැකිද?
-    - ලබා ගත හැකි නිෂ්පාදන මොනවාද?
-    - ලබා ගත හැකි බඩු මොනවාද?
-  
+    - [පිරිමි ඇඳුම්](product_category)
+    - [පිරිමි ඇඳුම්](product_category) මොනවාද
+    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන මොනවාද
+    - [පිරිමි ඇඳුම්](product_category) තිබේද
+    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන තිබේද
+    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන විකිණීමට තිබේද 
+    - අපට මිලදී ගත හැකි [පිරිමි ඇඳුම්](product_category) කුමක්ද?
+    - [පිරිමි ඇඳුම්](product_category) මිලදී ගත හැකිද
+    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන ලැයිස්තුව
+    - [පිරිමි ඇඳුම්](product_category) ලැයිස්තුව
+    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන
+    - [පිරිමි ඇඳුම්](product_category) ලබා ගත හැකිද?
+    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන ලබා ගත හැකිද?
+    - [පිරිමි ඇඳුම්](product_category) ගත හැකිද?
+    - [පිරිමි ඇඳුම්](product_category) ගන්න පුලුවන්ද
+    - ලබා ගත හැකි [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන මොනවාද?
+    - ලබා ගත හැකි [පිරිමි ඇඳුම්](product_category) මොනවාද?
+    - ගත හැකි [පිරිමි ඇඳුම්](product_category) මොනවාද?
+    - [පිරිමි](product_category) අයට
+    - [පිරිමි](product_category) අයට [කලිසම්](product_name) ගන්න පුලුවන්ද
+    - [ලුයිස්](brand)
+    - [ලුයිස්](brand) වර්ගයේ
+    - [ලුයිස්](brand) වර්ගයේ ගන්න තිබේද
+    - [ලුයිස්](brand) වර්ගයේ ගන්න පුලුවන්ද
+    - [ලුයිස්](brand) වර්ගයේ [කලිසම්](product_name) ගන්න පුලුවන්ද
+    - [කුඩා](size)
+    - [කුඩා](size) ප්‍රමාණයේ
+    - [කුඩා](size) ප්‍රමාණයේ [කලිසම්](product_name)
+    - [කලිසම්](product_name)
+    - [කලිසම්](product_name) තිබේද
+    - [කලිසම්](product_name) ගන්න තිබේද
+    - [කලිසම්](product_name) ගන්න පුලුවන්ද
+    - [කුඩා](size) ප්‍රමාණයේ [කලිසම්](product_name) තිබේද
+    - [කුඩා](size) ප්‍රමාණයේ [කලිසම්](product_name) ගන්න තිබේද
+    - [කුඩා](size) ප්‍රමාණයේ [කලිසම්](product_name) ගන්න පුලුවන්ද
+    - [කළු](colour) පාට
+    - [කළු](colour) පාට [කලිසම්](product_name)
+    - [කළු](colour) පාට [කලිසම්](product_name) තියෙනවද
+    - [කළු](colour) පාට [කලිසම්](product_name) ගන්න තියෙනවද
+
 
 - lookup: product_category
   examples: |
@@ -276,3 +304,7 @@ nlu:
     - සුදු
     - නිල්
     - දුඹුරු
+
+- synonym: කළු
+  examples: |
+    - කලු

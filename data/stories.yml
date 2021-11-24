@@ -31,5 +31,5 @@ stories:
 
 - story: show product list
   steps:
-  - intent: ask_for_product
+  - intent: inform_product_pref
   - action: action_get_product_list
