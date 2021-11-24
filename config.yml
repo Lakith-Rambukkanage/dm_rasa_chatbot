@@ -8,7 +8,9 @@ pipeline:
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
-    # use_lookup_tables: True
+    use_lookup_tables: True
+    case_sensitive: False
+    use_word_boundaries: False
     # use_regexes: True
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
