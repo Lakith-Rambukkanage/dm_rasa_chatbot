@@ -21,6 +21,26 @@ entities:
   - colour
   - material
 
+slots:
+  product_category:
+    type: text
+    influence_conversation: true
+  product_name:
+    type: text
+    influence_conversation: true
+  brand:
+    type: text
+    influence_conversation: true
+  size:
+    type: text
+    influence_conversation: true
+  colour:
+    type: text
+    influence_conversation: true
+  material:
+    type: text
+    influence_conversation: true
+
 responses:
   utter_greet:
   - text: "ආයුබෝවන්, ඔබට සහය වන්නේ කෙසේද?"
