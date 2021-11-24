@@ -128,24 +128,25 @@ nlu:
 
 - intent: inform_product_pref
   examples: |
-    - [පිරිමි ඇඳුම්](product_category)
-    - [පිරිමි ඇඳුම්](product_category) මොනවාද
-    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන මොනවාද
-    - [පිරිමි ඇඳුම්](product_category) තිබේද
-    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන තිබේද
-    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන විකිණීමට තිබේද 
-    - අපට මිලදී ගත හැකි [පිරිමි ඇඳුම්](product_category) කුමක්ද?
-    - [පිරිමි ඇඳුම්](product_category) මිලදී ගත හැකිද
-    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන ලැයිස්තුව
-    - [පිරිමි ඇඳුම්](product_category) ලැයිස්තුව
-    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන
-    - [පිරිමි ඇඳුම්](product_category) ලබා ගත හැකිද?
-    - [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන ලබා ගත හැකිද?
-    - [පිරිමි ඇඳුම්](product_category) ගත හැකිද?
-    - [පිරිමි ඇඳුම්](product_category) ගන්න පුලුවන්ද
-    - ලබා ගත හැකි [පිරිමි ඇඳුම්](product_category) නිෂ්පාදන මොනවාද?
-    - ලබා ගත හැකි [පිරිමි ඇඳුම්](product_category) මොනවාද?
-    - ගත හැකි [පිරිමි ඇඳුම්](product_category) මොනවාද?
+    - [පිරිමි](product_category)
+    - [පිරිමි](product_category) ඇඳුම්
+    - [පිරිමි](product_category) ඇඳුම් මොනවාද
+    - [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන මොනවාද
+    - [පිරිමි](product_category) ඇඳුම් තිබේද
+    - [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන තිබේද
+    - [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන විකිණීමට තිබේද 
+    - අපට මිලදී ගත හැකි [පිරිමි](product_category) ඇඳුම් කුමක්ද?
+    - [පිරිමි](product_category) ඇඳුම් මිලදී ගත හැකිද
+    - [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන ලැයිස්තුව
+    - [පිරිමි](product_category) ඇඳුම් ලැයිස්තුව
+    - [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන
+    - [පිරිමි](product_category) ඇඳුම් ලබා ගත හැකිද?
+    - [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන ලබා ගත හැකිද?
+    - [පිරිමි](product_category) ඇඳුම් ගත හැකිද?
+    - [පිරිමි](product_category) ඇඳුම් ගන්න පුලුවන්ද
+    - ලබා ගත හැකි [පිරිමි](product_category) ඇඳුම් නිෂ්පාදන මොනවාද?
+    - ලබා ගත හැකි [පිරිමි](product_category) ඇඳුම් මොනවාද?
+    - ගත හැකි [පිරිමි](product_category) ඇඳුම් මොනවාද?
     - [පිරිමි](product_category) අයට
     - [පිරිමි](product_category) අයට [කලිසම්](product_name) ගන්න පුලුවන්ද
     - [ලුයිස්](brand)
@@ -171,9 +172,9 @@ nlu:
 
 - lookup: product_category
   examples: |
-    - පිරිමි ඇඳුම්
-    - කාන්තා ඇඳුම්
-    - ළමා ඇඳුම්
+    - පිරිමි
+    - කාන්තා
+    - ළමා
     - උපාංග
 
 - synonym: පිරිමි
@@ -190,7 +191,6 @@ nlu:
 
 - synonym: ළමා
   examples: |
-    - ළමා
     - සිසු
     - සිසුන්
     - ළමයි
