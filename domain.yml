@@ -11,6 +11,7 @@ intents:
   - ask_for_product
   - ask_for_brand
   - ask_about_delivery
+  - ask_about_payment
 
 entities:
   - product_name
@@ -41,7 +42,10 @@ responses:
   - text: "ඔව් මම බොට් කෙනෙක්"
 
   utter_delivery_info:
-  - text: "අපි කොළඹ,කළුතර,ගම්පහ ප්‍රදේශවලට බෙදා හැරීම සිදු කරන්නෙමු, කාඩ්පත් ගෙවීම පිළිගනු ලැබේ. මුදල් මගින්ද ගෙවිය හැක."
+  - text: "අපි කොළඹ,කළුතර,ගම්පහ ප්‍රදේශවලට එදිනම බෙදා හැරීම සිදු කරන්නෙමු. අනෙකුත් ප්රදේශ සඳහා දින 2 සිට 3 දක්වා ගත වනු ඇත"
+
+  utter_payment_info:
+  - text: "කාඩ්පත් ගෙවීම පිළිගනු ලැබේ. භාණ්ඩ ලබා ගත් පසු මුදල් මගින්ද ගෙවිය හැක."
 
   utter_product_list:
   - text: "ඔබට පහත නිෂ්පාදන මිලදී ගත හැකිය"
