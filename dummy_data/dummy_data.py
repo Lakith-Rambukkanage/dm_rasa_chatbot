@@ -1,5 +1,5 @@
 # product_category -> product_sku -> product(product_name, product_category, brand, size, colour, material)
-products_list = {
+products_list = [
     {
         "product_category": "පිරිමි ඇඳුම්",
         "sku": "mens_shirt_1",
@@ -1320,6 +1320,6 @@ products_list = {
         "material": "සම්",
         "price": 600,
     },
-}
+]
 
 # mens - shirt,trousers | white,black,blue| small,medium,large | silk,cotton
