@@ -39,8 +39,9 @@ class ActionGetProductsList(Action):
             product_category, product_name, size, colour, material, brand
         )
 
+        products_string = "--ගැලපෙන භාණ්ඩ--"
+        print(product_category, product_name, size, colour, material, brand)
         for product in response_product_list:
-            products_string = "--ගැලපෙන භාණ්ඩ--"
             products_string += format_string(product)
 
         dispatcher.utter_message(text=products_string)
