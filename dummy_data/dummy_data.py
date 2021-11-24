@@ -1095,7 +1095,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 1100,
         },
         {
             "product_category":"උපාංග",
@@ -1105,7 +1105,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "කළු",
             "material": "කැන්වස්",
-            "price": 100,
+            "price": 1100,
         },
         {
             "product_category":"උපාංග",
@@ -1115,7 +1115,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 1100,
         },
         {
             "product_category":"උපාංග",
@@ -1125,7 +1125,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "කළු",
             "material": "කැන්වස්",
-            "price": 100,
+            "price": 1100,
         },
         {
             "product_category":"උපාංග",
@@ -1135,7 +1135,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 2100,
         },
         {
             "product_category":"උපාංග",
@@ -1145,7 +1145,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "කළු",
             "material": "කැන්වස්",
-            "price": 100,
+            "price": 2100,
         },
         {
             "product_category":"උපාංග",
@@ -1155,7 +1155,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 2100,
         },
         {
             "product_category":"උපාංග",
@@ -1165,7 +1165,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "කළු",
             "material": "කැන්වස්",
-            "price": 100,
+            "price": 2100,
         },
         {
             "product_category":"උපාංග",
@@ -1175,7 +1175,7 @@ products_list = {
             "size": "විශාල",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 2500,
         },
         {
             "product_category":"උපාංග",
@@ -1185,7 +1185,7 @@ products_list = {
             "size": "විශාල",
             "colour": "කළු",
             "material": "කැන්වස්",
-            "price": 100,
+            "price": 2500,
         },
         {
             "product_category":"උපාංග",
@@ -1195,7 +1195,7 @@ products_list = {
             "size": "විශාල",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 2500,
         },
         {
             "product_category":"උපාංග",
@@ -1205,7 +1205,7 @@ products_list = {
             "size": "විශාල",
             "colour": "කළු",
             "material": "කැන්වස්",
-            "price": 100,
+            "price": 2500,
         },
         {
             "product_category":"උපාංග",
@@ -1215,7 +1215,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "කළු",
             "material": "කපු",
-            "price": 100,
+            "price": 400,
         },
         {
             "product_category":"උපාංග",
@@ -1225,7 +1225,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "සුදු",
             "material": "කපු",
-            "price": 100,
+            "price": 400,
         },
         {
             "product_category":"උපාංග",
@@ -1235,7 +1235,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "කළු",
             "material": "කපු",
-            "price": 100,
+            "price": 500,
         },
         {
             "product_category":"උපාංග",
@@ -1245,7 +1245,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "සුදු",
             "material": "කපු",
-            "price": 100,
+            "price": 500,
         },
         {
             "product_category":"උපාංග",
@@ -1255,7 +1255,7 @@ products_list = {
             "size": "විශාල",
             "colour": "කළු",
             "material": "කපු",
-            "price": 100,
+            "price": 600,
         },
         {
             "product_category":"උපාංග",
@@ -1265,7 +1265,7 @@ products_list = {
             "size": "විශාල",
             "colour": "සුදු",
             "material": "කපු",
-            "price": 100,
+            "price": 600,
         },
         {
             "product_category":"උපාංග",
@@ -1275,7 +1275,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 400,
         },
         {
             "product_category":"උපාංග",
@@ -1285,7 +1285,7 @@ products_list = {
             "size": "කුඩා",
             "colour": "දුඹුරු",
             "material": "සම්",
-            "price": 100,
+            "price": 400,
         },
         {
             "product_category":"උපාංග",
@@ -1295,7 +1295,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 500,
         },
         {
             "product_category":"උපාංග",
@@ -1305,7 +1305,7 @@ products_list = {
             "size": "මධ්යම",
             "colour": "දුඹුරු",
             "material": "සම්",
-            "price": 100,
+            "price": 500,
         },
         {
             "product_category":"උපාංග",
@@ -1315,7 +1315,7 @@ products_list = {
             "size": "විශාල",
             "colour": "කළු",
             "material": "සම්",
-            "price": 100,
+            "price": 600,
         },
         {
             "product_category":"උපාංග",
@@ -1325,7 +1325,7 @@ products_list = {
             "size": "විශාල",
             "colour": "දුඹුරු",
             "material": "සම්",
-            "price": 100,
+            "price": 600,
         },
     },
 }
