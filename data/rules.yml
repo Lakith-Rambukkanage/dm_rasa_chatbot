@@ -26,3 +26,8 @@ rules:
   steps:
   - intent: request_real_agent
   - action: utter_redirect_to_real
+
+- rule: empty cart
+  steps:
+  - intent: clear_cart
+  - action: action_clear_cart

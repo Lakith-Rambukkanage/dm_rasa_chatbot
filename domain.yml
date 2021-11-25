@@ -13,10 +13,12 @@ intents:
   - ask_about_payment
   - request_real_agent
   - add_sku_to_cart
+  - clear_cart
 
 actions:
   - action_get_product_list
   - action_add_sku_to_cart
+  - action_clear_cart
 
 entities:
   - product_name

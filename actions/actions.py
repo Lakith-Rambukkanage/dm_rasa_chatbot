@@ -81,3 +81,20 @@ class ActionAddSkuToCart(Action):
                 dispatcher.utter_message(text=sku+" දැනටමත් කූඩයට දමා ඇත")
 
         return [SlotSet("cart", cart)]
+
+class ActionClearCart(Action):
+    def name(self) -> Text:
+        return "action_clear_cart"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        
+        cart = [] 
+
+        dispatcher.utter_message(text="කූඩයට හිස් කළා")
+
+        return [SlotSet("cart", cart)]
