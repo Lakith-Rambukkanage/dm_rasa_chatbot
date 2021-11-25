@@ -21,3 +21,8 @@ rules:
   steps:
   - intent: ask_about_payment
   - action: utter_payment_info
+
+- rule: real agent
+  steps:
+  - intent: request_real_agent
+  - action: utter_redirect_to_real

@@ -11,6 +11,7 @@ intents:
   - inform_product_pref
   - ask_about_delivery
   - ask_about_payment
+  - request_real_agent
 
 actions:
   - action_get_product_list
@@ -71,6 +72,9 @@ responses:
 
   utter_product_list:
   - text: "ඔබට පහත නිෂ්පාදන මිලදී ගත හැකිය"
+
+  utter_redirect_to_real:
+  - text: "යොමු කරනවා, මදක් රැදී සිටින්න"
 
 session_config:
   session_expiration_time: 60

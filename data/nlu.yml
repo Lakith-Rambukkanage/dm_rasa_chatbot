@@ -73,27 +73,12 @@ nlu:
     - නියමයි
     - විශිෂ්ටයි
     - අපූරුයි
-    - වාසනාවන්තයි
-    - උද්යෝගිමත්
     - ගොඩක් හොඳයි
 
 - intent: mood_unhappy
   examples: |
     - අපරාදේ
     - දුකයි
-    - හරිම දුකයි
-    - ගොඩාක් දුකයි
-    - අවුල්
-    - කලකිරීමෙන්
-    - කලකිරෙනවා
-    - ගොඩක් කලකිරීමෙන්
-    - අසතුටින්
-    - හොඳ නැහැ
-    - ඉතා හොඳ නැත
-    - කණගාටුදායකයි
-    - අතිශයින්ම කණගාටුදායකයි
-    - ගොඩාක් කණගාටුදායකයි
-    - නරකයි
 
 - intent: bot_challenge
   examples: |
@@ -125,6 +110,15 @@ nlu:
     - ගෙවීම
     - කාඩ්පත්
     - ගෙවන්න ඔනෙ කොයි වෙලාවේද
+
+- intent: request_real_agent
+  examples: |
+    - සැබෑ පාරිභෝගික සේවා නියෝජිතයෙකුට කතා කරන්න පුලුවන්ද
+    - පාරිභෝගික සේවා නියෝජිතයෙකුට කතා කරන්න පුලුවන්ද
+    - පාරිභෝගික සේවා
+    - පාරිභෝගික සේවා නිලධාරියෙක් අවශ්‍යයි
+    - පාරිභෝගික සේවා නිලධාරියෙක් ඕනෙ
+    - සැබෑ පාරිභෝගික සේවා නිලධාරියෙක් ඕනෙ
 
 - intent: inform_product_pref
   examples: |
@@ -367,6 +361,26 @@ nlu:
     - ලබා ගත හැකි [ළමා](product_category) ඇඳුම් නිෂ්පාදන මොනවාද?
     - ලබා ගත හැකි [ළමා](product_category) ඇඳුම් මොනවාද?
     - ගත හැකි [ළමා](product_category) ඇඳුම් මොනවාද?
+    - [උපාංග](product_category)
+    - [උපාංග](product_category) ඇඳුම්
+    - [උපාංග](product_category) තිබේද
+    - [උපාංග](product_category) මොනවාද
+    - [උපාංග](product_category) නිෂ්පාදන මොනවාද
+    - [උපාංග](product_category) නිෂ්පාදන තිබේද
+    - [උපාංග](product_category) නිෂ්පාදන විකිණීමට තිබේද 
+    - අපට මිලදී ගත හැකි [උපාංග](product_category) කුමක්ද?
+    - අපට මිලදී ගත හැකි [උපාංග](product_category) මොනවාද?
+    - [උපාංග](product_category) මිලදී ගත හැකිද
+    - [උපාංග](product_category) නිෂ්පාදන ලැයිස්තුව
+    - [උපාංග](product_category) ලැයිස්තුව
+    - [උපාංග](product_category) නිෂ්පාදන
+    - [උපාංග](product_category) ලබා ගත හැකිද?
+    - [උපාංග](product_category) නිෂ්පාදන ලබා ගත හැකිද?
+    - [උපාංග](product_category) ගත හැකිද?
+    - [උපාංග](product_category) ගන්න පුලුවන්ද
+    - ලබා ගත හැකි [උපාංග](product_category) නිෂ්පාදන මොනවාද?
+    - ලබා ගත හැකි [උපාංග](product_category) මොනවාද?
+    - ගත හැකි [උපාංග](product_category) මොනවාද?
 
 - lookup: product_category
   examples: |

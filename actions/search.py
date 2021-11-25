@@ -60,7 +60,7 @@ def format_string(product):
     product_string += "පාට : " + product["colour"] + "\n"
     product_string += "අමුද්‍රව්‍ය : " + product["material"] + "\n"
     product_string += "වෙළඳනාමය : " + product["brand"] + "\n"
-    product_string += "මිල : " + product["price"] + "\n"
+    product_string += "මිල : " + str(product["price"]) + "\n"
     product_string += "හඳුනාගැනීමේ කේතය : " + product["sku"] + "\n"
 
     return product_string
