@@ -10,3 +10,11 @@ def format_prod_string(product):
     product_string += "හඳුනාගැනීමේ කේතය : " + product["sku"] + "\n"
 
     return product_string
+
+def query_to_string(query_vector):
+    q_string = "විමසුම : "
+    for key,value in query_vector.items():
+        if value!=None:
+            q_string+="| " + value
+    q_string+=" |"
+    return q_string

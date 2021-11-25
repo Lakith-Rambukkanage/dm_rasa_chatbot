@@ -12,7 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.search import product_search
-from actions.util import format_prod_string
+from actions.util import format_prod_string, query_to_string
 
 from dummy_data.dummy_data import products_list
 
@@ -41,8 +41,9 @@ class ActionGetProductsList(Action):
 
         response_product_list = product_search(query_vector)
 
-        print(query_vector)
-        
+        print(query_to_string(query_vector))
+        dispatcher.utter_message(text=query_to_string(query_vector))
+
         if len(response_product_list)>0:
             dispatcher.utter_message(text="--ගැලපෙන භාණ්ඩ--")
 
