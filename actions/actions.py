@@ -73,7 +73,11 @@ class ActionAddSkuToCart(Action):
             cart = [] 
 
         if sku!=None:
-            cart.append("sku")
-            dispatcher.utter_message(text=sku+" කූඩයට දැම්මා")
+            if sku not in cart:
+                cart.append(sku)
+                dispatcher.utter_message(text=sku+" කූඩයට දැම්මා")
+                dispatcher.utter_message(text="කූඩය: "+str(cart))
+            else:
+                dispatcher.utter_message(text=sku+" දැනටමත් කූඩයට දමා ඇත")
 
         return [SlotSet("cart", cart)]
