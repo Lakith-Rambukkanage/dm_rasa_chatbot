@@ -11,7 +11,8 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from actions.search import format_string, product_search
+from actions.search import product_search
+from actions.util import format_prod_string
 
 from dummy_data.dummy_data import products_list
 
@@ -27,23 +28,28 @@ class ActionGetProductsList(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        # slots
-        product_category = tracker.get_slot("product_category")
-        product_name = tracker.get_slot("product_name")
-        brand = tracker.get_slot("brand")
-        size = tracker.get_slot("size")
-        colour = tracker.get_slot("colour")
-        material = tracker.get_slot("material")
 
-        response_product_list = product_search(
-            product_category, product_name, size, colour, material, brand
-        )
+        # query from preference slots
+        query_vector = {
+            "product_category": tracker.get_slot("product_category"),
+            "product_name": tracker.get_slot("product_name"),
+            "size": tracker.get_slot("size"),
+            "colour": tracker.get_slot("colour"),
+            "material": tracker.get_slot("material"),
+            "brand": tracker.get_slot("brand"),
+        }
 
-        products_string = "--ගැලපෙන භාණ්ඩ--"
-        print(product_category, product_name, size, colour, material, brand)
-        for product in response_product_list:
-            products_string += format_string(product)
+        response_product_list = product_search(query_vector)
 
-        dispatcher.utter_message(text=products_string)
+        print(query_vector)
+        
+        if len(response_product_list)>0:
+            dispatcher.utter_message(text="--ගැලපෙන භාණ්ඩ--")
 
+            for product in response_product_list:
+                product_string = format_prod_string(product)
+                dispatcher.utter_message(text=product_string)
+        else:
+            dispatcher.utter_message(text="--ගැලපෙන භාණ්ඩ නැත--")
+        
         return []
