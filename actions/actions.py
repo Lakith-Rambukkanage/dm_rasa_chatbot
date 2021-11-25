@@ -13,7 +13,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.search import product_search
 from actions.util import format_prod_string, query_to_string
-
+from rasa_sdk.events import SlotSet
 from dummy_data.dummy_data import products_list
 
 
@@ -54,3 +54,26 @@ class ActionGetProductsList(Action):
             dispatcher.utter_message(text="--ගැලපෙන භාණ්ඩ නැත--")
         
         return []
+
+class ActionAddSkuToCart(Action):
+    def name(self) -> Text:
+        return "action_add_sku_to_cart"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+
+        sku = tracker.get_slot("sku")
+        cart = tracker.get_slot("cart")
+        
+        if cart==None:
+            cart = [] 
+
+        if sku!=None:
+            cart.append("sku")
+            dispatcher.utter_message(text=sku+" කූඩයට දැම්මා")
+
+        return [SlotSet("cart", cart)]

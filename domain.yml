@@ -12,9 +12,11 @@ intents:
   - ask_about_delivery
   - ask_about_payment
   - request_real_agent
+  - add_sku_to_cart
 
 actions:
   - action_get_product_list
+  - action_add_sku_to_cart
 
 entities:
   - product_name
@@ -23,6 +25,7 @@ entities:
   - size
   - colour
   - material
+  - sku
 
 slots:
   product_category:
@@ -41,6 +44,13 @@ slots:
     type: text
     influence_conversation: true
   material:
+    type: text
+    influence_conversation: true
+  cart:
+    type: list
+    initial_value : []
+    influence_conversation: true
+  sku:
     type: text
     influence_conversation: true
 

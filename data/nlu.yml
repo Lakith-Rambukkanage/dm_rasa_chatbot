@@ -120,6 +120,14 @@ nlu:
     - පාරිභෝගික සේවා නිලධාරියෙක් ඕනෙ
     - සැබෑ පාරිභෝගික සේවා නිලධාරියෙක් ඕනෙ
 
+- intent: add_sku_to_cart
+  examples: |
+    - [mens_shirt_1](sku) අයිතමය එකතු කරන්න
+    - [mens_shirt_1](sku) එකතු කරන්න
+    - [mens_shirt_1](sku) භාණ්ඩය කූඩයට එකතු කරන්න
+    - [mens_shirt_1](sku) භාණ්ඩය කූඩයට දමන්න
+    - [mens_shirt_1](sku) කූඩයට දමන්න
+
 - intent: inform_product_pref
   examples: |
     - [පිරිමි](product_category)
@@ -519,3 +527,139 @@ nlu:
 - synonym: කළු
   examples: |
     - කලු
+
+
+- lookup: sku
+  examples: |
+    - mens_shirt_1
+    - mens_shirt_2
+    - mens_shirt_3
+    - mens_shirt_4
+    - mens_shirt_5
+    - mens_shirt_6
+    - mens_shirt_7
+    - mens_shirt_8
+    - mens_shirt_9
+    - mens_shirt_10
+    - mens_shirt_11
+    - mens_shirt_12
+    - mens_shirt_13
+    - mens_shirt_14
+    - mens_shirt_15
+    - mens_shirt_16
+    - mens_shirt_17
+    - mens_shirt_18
+    - mens_trouser_1
+    - mens_trouser_2
+    - mens_trouser_3
+    - mens_trouser_4
+    - mens_trouser_5
+    - mens_trouser_6
+    - mens_trouser_7
+    - mens_trouser_8
+    - mens_trouser_9
+    - mens_trouser_10
+    - mens_trouser_11
+    - mens_trouser_12
+    - mens_trouser_13
+    - mens_trouser_14
+    - mens_trouser_15
+    - mens_trouser_16
+    - mens_trouser_17
+    - mens_trouser_18
+    - womens_blouse_1
+    - womens_blouse_2
+    - womens_blouse_3
+    - womens_blouse_4
+    - womens_blouse_5
+    - womens_blouse_6
+    - womens_blouse_7
+    - womens_blouse_8
+    - womens_blouse_9
+    - womens_blouse_10
+    - womens_blouse_11
+    - womens_blouse_12
+    - womens_blouse_13
+    - womens_blouse_14
+    - womens_blouse_15
+    - womens_blouse_16
+    - womens_blouse_17
+    - womens_blouse_18
+    - womens_frock_1
+    - womens_frock_2
+    - womens_frock_3
+    - womens_frock_4
+    - womens_frock_5
+    - womens_frock_6
+    - womens_frock_7
+    - womens_frock_8
+    - womens_frock_8
+    - womens_frock_10
+    - womens_frock_11
+    - womens_frock_12
+    - womens_frock_13
+    - womens_frock_14
+    - womens_frock_15
+    - womens_frock_16
+    - womens_frock_17
+    - womens_frock_18
+    - kids_shirt_1
+    - kids_shirt_2
+    - kids_shirt_3
+    - kids_shirt_4
+    - kids_shirt_5
+    - kids_shirt_6
+    - kids_shirt_7
+    - kids_shirt_8
+    - kids_shirt_9
+    - kids_shirt_10
+    - kids_shirt_11
+    - kids_shirt_12
+    - kids_shirt_13
+    - kids_shirt_14
+    - kids_shirt_15
+    - kids_shirt_16
+    - kids_shirt_17
+    - kids_shirt_18
+    - kids_trouser_1
+    - kids_trouser_2
+    - kids_trouser_3
+    - kids_trouser_4
+    - kids_trouser_5
+    - kids_trouser_6
+    - kids_trouser_7
+    - kids_trouser_8
+    - kids_trouser_9
+    - kids_trouser_10
+    - kids_trouser_11
+    - kids_trouser_12
+    - kids_trouser_13
+    - kids_trouser_14
+    - kids_trouser_15
+    - kids_trouser_16
+    - kids_trouser_17
+    - kids_trouser_18
+    - shoes_1
+    - shoes_2
+    - shoes_1_a
+    - shoes_2_a
+    - shoes_3
+    - shoes_4
+    - shoes_3_a
+    - shoes_4_a
+    - shoes_5
+    - shoes_6
+    - shoes_5_a
+    - shoes_6_a
+    - socks_1
+    - socks_2
+    - socks_3
+    - socks_4
+    - socks_5
+    - socks_6
+    - belt_1
+    - belt_2
+    - belt_3
+    - belt_4
+    - belt_5
+    - belt_6

@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: inform_product_pref
   - action: action_get_product_list
+
+- story: add item to cart
+  steps:
+  - intent: add_sku_to_cart
+  - action: action_add_sku_to_cart

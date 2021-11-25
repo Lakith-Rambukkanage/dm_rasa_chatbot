@@ -114,3 +114,4 @@ dmypy.json
 .pyre/
 
 models/
+dummy_data/sku.txt
