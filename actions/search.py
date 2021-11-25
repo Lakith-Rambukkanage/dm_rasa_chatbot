@@ -1,17 +1,7 @@
 from dummy_data.dummy_data import products_list
 
 
-def product_search(product_category, product_name, size, colour, material, brand):
-
-    # query
-    query_vector = {
-        "product_category": product_category,
-        "product_name": product_name,
-        "size": size,
-        "colour": colour,
-        "material": material,
-        "brand": brand,
-    }
+def product_search(query_vector):
 
     # products list
     products = products_list
@@ -50,17 +40,3 @@ def product_search(product_category, product_name, size, colour, material, brand
 
 
 # product_search("පිරිමි ඇඳුම්", None, None, None, None, None)
-
-
-def format_string(product):
-    product_string = "\n"
-    product_string += "නිෂ්පාදන කාණ්ඩය : " + product["product_category"] + "\n"
-    product_string += "නිෂ්පාදන නාමය : " + product["product_name"] + "\n"
-    product_string += "ප්‍රමාණය : " + product["size"] + "\n"
-    product_string += "පාට : " + product["colour"] + "\n"
-    product_string += "අමුද්‍රව්‍ය : " + product["material"] + "\n"
-    product_string += "වෙළඳනාමය : " + product["brand"] + "\n"
-    product_string += "මිල : " + str(product["price"]) + "\n"
-    product_string += "හඳුනාගැනීමේ කේතය : " + product["sku"] + "\n"
-
-    return product_string
