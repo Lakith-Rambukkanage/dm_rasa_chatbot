@@ -45,7 +45,7 @@ def product_search(product_category, product_name, size, colour, material, brand
 
     # print(score_list)
     # print(response_product_list)
-    
+
     return response_product_list
 
 
@@ -60,5 +60,7 @@ def format_string(product):
     product_string += "පාට : " + product["colour"] + "\n"
     product_string += "අමුද්‍රව්‍ය : " + product["material"] + "\n"
     product_string += "වෙළඳනාමය : " + product["brand"] + "\n"
+    product_string += "මිල : " + product["price"] + "\n"
+    product_string += "හඳුනාගැනීමේ කේතය : " + product["sku"] + "\n"
 
     return product_string
